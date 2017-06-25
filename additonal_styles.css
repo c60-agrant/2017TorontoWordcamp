@@ -1,0 +1,92 @@
+@media screen and (min-width: 48em) { /* Desktop */
+  .site-footer .widget-column.footer-widget-1, .site-footer .widget-column.footer-widget-2 {
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+  /* Direction provided by WCAA */
+  #colophon {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+  #colophon .wcb_widget_sponsors {
+    max-width: 1170px;
+    padding: 1em;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #colophon .wcb_widget_sponsors .widget-title {
+    color: #fff;
+    position: absolute;
+    margin-top: -100px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+  #colophon .wcb_widget_sponsors .sponsor-level {
+    width: 33%;
+    display: inline-block;
+    padding: 0 1em;
+    vertical-align: top;
+  }
+  #colophon .sponsor-level-title {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #777;
+    letter-spacing: 2px;
+  }
+  #colophon .sponsor-logo {
+    margin: 20px 0;
+    padding: 10px 25px;
+    display: block;
+  }
+  #colophon .sponsor-logo img {
+    max-height: 75px;
+    width: auto;
+  }
+}
+
+
+/* Sponsor Logos were huge! */
+.single-wcb_sponsor .single-featured-image-header {
+  padding: 3em;
+}
+.single-wcb_sponsor .single-featured-image-header img {
+  max-width: 28em;
+}
+/* end sponsor logos fix */
+
+.entry-content a.pseudobutton {
+  background-color: #222;
+  border: 0;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-size: .875rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 1em 2em;
+  text-shadow: none;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+}
+
+.entry-content a.pseudobutton:hover {
+  background: #767676;
+  color: #fff;
+}
+
+.entry-content a.nohover:hover {
+  text-decoration: none;
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
