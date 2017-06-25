@@ -49,14 +49,14 @@
     width: auto;
   }
 
+  /* slim down the mailchimp form on desktop */
   form.wcorg-mailchimp {
     max-width: 50%;
   }
 }
 
 
-/* Sponsor Logos were huge! */
-
+/* some sponsor logos were huge, lets fix that! */
 .single-wcb_sponsor .single-featured-image-header {
   padding: 3em;
 }
@@ -64,8 +64,6 @@
 .single-wcb_sponsor .single-featured-image-header img {
   max-width: 28em;
 }
-
-
 /* end sponsor logos fix */
 
 .entry-content a.pseudobutton {
@@ -93,6 +91,7 @@ h1.site-title {
 }
 
 
+/* Mailchimp Form */
 form.wcorg-mailchimp label,
 form.wcorg-mailchimp input[type=submit] {
   margin: 1em 0;
