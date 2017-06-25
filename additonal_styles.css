@@ -99,3 +99,8 @@ form.wcorg-mailchimp label,
 form.wcorg-mailchimp input[type=submit] {
   margin: 1em 0;
 }
+
+/* optional dark theme sponsors fix */
+.colors-dark .widget .sponsor-logo a img {
+  box-shadow: none;
+}
