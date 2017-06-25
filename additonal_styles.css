@@ -87,9 +87,12 @@
 }
 
 h1.site-title {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
+body.page:not(.twentyseventeen-front-page) h1.entry-title {
+  font-size: 1.8rem;
+}
 
 /* Mailchimp Form */
 form.wcorg-mailchimp label,
