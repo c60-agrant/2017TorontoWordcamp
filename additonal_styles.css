@@ -84,18 +84,11 @@
   transition: background .2s;
 }
 
-.entry-content a.pseudobutton:hover {
-  background: #767676;
-  color: #fff;
-}
-
-.entry-content a.nohover:hover {
-  text-decoration: none;
-  color: #fff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
 h1.site-title {
   font-size: 3em;
+}
+
+form.wcord-mailchimp label,
+form.wcord-mailchimp input[type=submit] {
+  margin: 1em 0;
 }
