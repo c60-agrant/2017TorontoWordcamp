@@ -48,6 +48,10 @@
     max-height: 75px;
     width: auto;
   }
+
+  form.wcord-mailchimp {
+    max-width: 50%;
+  }
 }
 
 
