@@ -55,6 +55,11 @@
   }
 }
 
+/* style added for DM */ 
+.wcpt-session-speakers {
+    display: block;
+    font-style: italic;
+}
 
 /* some sponsor logos were huge, lets fix that! */
 .single-wcb_sponsor .single-featured-image-header {
