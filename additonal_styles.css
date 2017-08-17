@@ -80,6 +80,12 @@ body.page:not(.twentyseventeen-front-page) h1.entry-title {
 .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
   max-height: 512px; }
 
+.main-navigation li li:hover, .main-navigation li li.focus {
+  background-color: white; }
+  .main-navigation li li:hover a, .main-navigation li li.focus a {
+    color: #222222;
+    text-decoration: underline; }
+
 @media screen and (min-width: 48em) {
   /* slim down the mailchimp form on desktop */
   form.wcorg-mailchimp {
@@ -100,5 +106,22 @@ form.wcorg-mailchimp input[type=submit] {
 /* optional dark theme sponsors fix */
 .colors-dark .widget .sponsor-logo a img {
   box-shadow: none; }
+
+#colophon .sponsor-level-title {
+  font-size: 35px; }
+#colophon .wcb_widget_sponsors .sponsor-level {
+  width: 100%;
+  margin-bottom: 30px; }
+  #colophon .wcb_widget_sponsors .sponsor-level a.sponsor-logo {
+    display: inline-block;
+    width: 250px; }
+
+.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+  transition: none;
+  transition: none; }
 
 /*# sourceMappingURL=additonal_styles.css.map */
