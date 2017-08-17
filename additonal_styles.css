@@ -78,7 +78,7 @@ body.page:not(.twentyseventeen-front-page) h1.entry-title {
   font-size: 1.8rem; }
 
 .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
-  height: 512px; }
+  max-height: 512px; }
 
 @media screen and (min-width: 48em) {
   /* slim down the mailchimp form on desktop */
