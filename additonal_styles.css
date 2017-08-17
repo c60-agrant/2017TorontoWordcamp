@@ -83,6 +83,13 @@ h1.site-title {
 body.page:not(.twentyseventeen-front-page) h1.entry-title {
   font-size: 1.8rem; }
 
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
+  height: calc(70vh - 32px);
+  background-color: #000044; }
+
+.wp-custom-header {
+  opacity: .5; }
+
 @media screen and (min-width: 48em) {
   /* slim down the mailchimp form on desktop */
   form.wcorg-mailchimp {
