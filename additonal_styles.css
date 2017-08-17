@@ -108,7 +108,8 @@ form.wcorg-mailchimp input[type=submit] {
   box-shadow: none; }
 
 #colophon .sponsor-level-title {
-  font-size: 35px; }
+  font-size: 35px;
+  border-bottom: 1px solid black; }
 #colophon .wcb_widget_sponsors .sponsor-level {
   width: 100%;
   margin-bottom: 30px; }
@@ -123,5 +124,17 @@ form.wcorg-mailchimp input[type=submit] {
   transition: none;
   transition: none;
   transition: none; }
+
+.speaker_setup .wcorg-speaker h2 {
+  display: none; }
+.speaker_setup .wcorg-speaker-description {
+  width: 150px;
+  display: inline-block;
+  float: left;
+  margin: 10px; }
+  .speaker_setup .wcorg-speaker-description img {
+    width: 300px; }
+  .speaker_setup .wcorg-speaker-description p, .speaker_setup .wcorg-speaker-description .sharedaddy {
+    display: none; }
 
 /*# sourceMappingURL=additonal_styles.css.map */
