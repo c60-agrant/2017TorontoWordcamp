@@ -1,0 +1,12 @@
+/*
+  SASS file for CSS
+
+  run "build.sh" to build the css file when on master or develop
+  
+ */
+
+@import 'base';
+@import 'frontpage.scss';
+@import 'mailchimp';
+@import 'sponsors';
+

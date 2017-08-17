@@ -1,0 +1,12 @@
+@media screen and (min-width: 48em) {
+  /* slim down the mailchimp form on desktop */
+  form.wcorg-mailchimp {
+    max-width: 50%;
+  }
+}
+
+/* Mailchimp Form */
+form.wcorg-mailchimp label,
+form.wcorg-mailchimp input[type=submit] {
+  margin: 1em 0;
+}
