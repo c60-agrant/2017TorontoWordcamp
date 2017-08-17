@@ -1,9 +1,3 @@
-/*
-  SASS file for CSS
-
-  run "build.sh" to build the css file when on master or develop
-  
- */
 @media screen and (min-width: 48em) {
   /* Desktop */
   .site-footer .widget-column.footer-widget-1, .site-footer .widget-column.footer-widget-2 {
@@ -84,11 +78,7 @@ body.page:not(.twentyseventeen-front-page) h1.entry-title {
   font-size: 1.8rem; }
 
 .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
-  height: calc(70vh - 32px);
-  background-color: #000044; }
-
-.wp-custom-header {
-  opacity: .5; }
+  height: 512px; }
 
 @media screen and (min-width: 48em) {
   /* slim down the mailchimp form on desktop */
