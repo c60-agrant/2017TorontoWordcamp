@@ -137,4 +137,10 @@ form.wcorg-mailchimp input[type=submit] {
   .speaker_setup .wcorg-speaker-description p, .speaker_setup .wcorg-speaker-description .sharedaddy {
     display: none; }
 
+.wcorg-volunteer-details {
+  float: right;
+  width: calc( 100% - 120px ); }
+  .wcorg-volunteer-details h2 {
+    margin-bottom: 5px; }
+
 /*# sourceMappingURL=additonal_styles.css.map */
