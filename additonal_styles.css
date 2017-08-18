@@ -143,4 +143,7 @@ form.wcorg-mailchimp input[type=submit] {
   .wcorg-volunteer-details h2 {
     margin-bottom: 5px; }
 
+.wcorg-volunteer-content {
+  clear: both; }
+
 /*# sourceMappingURL=additonal_styles.css.map */
