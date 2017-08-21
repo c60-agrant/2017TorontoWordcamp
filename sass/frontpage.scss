@@ -1,0 +1,15 @@
+
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
+    max-height: 512px;
+}
+
+.main-navigation li li:hover, .main-navigation li li.focus { 
+	background-color: white;
+	a {
+		color: rgb( 34,34,34 );
+		text-decoration: underline;
+	}
+}
+
+.wp-custom-header {
+}

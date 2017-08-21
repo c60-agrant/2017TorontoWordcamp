@@ -3,73 +3,54 @@
   .site-footer .widget-column.footer-widget-1, .site-footer .widget-column.footer-widget-2 {
     display: block;
     width: 100%;
-    clear: both;
-  }
+    clear: both; }
+
   /* Direction provided by WCAA */
   #colophon {
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 0;
-  }
+    padding-bottom: 0; }
+
   #colophon .wcb_widget_sponsors {
     max-width: 1170px;
     padding: 1em;
     background: #fff;
     margin: 0 auto;
-    text-align: center;
-  }
+    text-align: center; }
+
   #colophon .wcb_widget_sponsors .widget-title {
     color: #fff;
     position: absolute;
     margin-top: -100px;
     width: 100%;
     left: 0;
-    text-align: center;
-  }
+    text-align: center; }
+
   #colophon .wcb_widget_sponsors .sponsor-level {
     width: 33%;
     display: inline-block;
     padding: 0 1em;
-    vertical-align: top;
-  }
+    vertical-align: top; }
+
   #colophon .sponsor-level-title {
     margin-bottom: 1em;
     text-transform: uppercase;
     font-size: 16px;
     color: #777;
-    letter-spacing: 2px;
-  }
+    letter-spacing: 2px; }
+
   #colophon .sponsor-logo {
     margin: 20px 0;
     padding: 10px 25px;
-    display: block;
-  }
+    display: block; }
+
   #colophon .sponsor-logo img {
     max-height: 75px;
-    width: auto;
-  }
-
-  /* slim down the mailchimp form on desktop */
-  form.wcorg-mailchimp {
-    max-width: 50%;
-  }
-}
-
-/* style added for DM */ 
+    width: auto; } }
+/* style added for DM */
 .wcpt-session-speakers {
-    display: block;
-    font-style: italic;
-}
-
-/* some sponsor logos were huge, lets fix that! */
-.single-wcb_sponsor .single-featured-image-header {
-  padding: 3em;
-}
-
-.single-wcb_sponsor .single-featured-image-header img {
-  max-width: 28em;
-}
-/* end sponsor logos fix */
+  display: block;
+  font-style: italic; }
 
 .entry-content a.pseudobutton {
   background-color: #222;
@@ -88,24 +69,81 @@
   padding: 1em 2em;
   text-shadow: none;
   -webkit-transition: background .2s;
-  transition: background .2s;
-}
+  transition: background .2s; }
 
 h1.site-title {
-  font-size: 3rem;
-}
+  font-size: 3rem; }
 
 body.page:not(.twentyseventeen-front-page) h1.entry-title {
-  font-size: 1.8rem;
-}
+  font-size: 1.8rem; }
 
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
+  max-height: 512px; }
+
+.main-navigation li li:hover, .main-navigation li li.focus {
+  background-color: white; }
+  .main-navigation li li:hover a, .main-navigation li li.focus a {
+    color: #222222;
+    text-decoration: underline; }
+
+@media screen and (min-width: 48em) {
+  /* slim down the mailchimp form on desktop */
+  form.wcorg-mailchimp {
+    max-width: 50%; } }
 /* Mailchimp Form */
 form.wcorg-mailchimp label,
 form.wcorg-mailchimp input[type=submit] {
-  margin: 1em 0;
-}
+  margin: 1em 0; }
 
+/* some sponsor logos were huge, lets fix that! */
+.single-wcb_sponsor .single-featured-image-header {
+  padding: 3em; }
+
+.single-wcb_sponsor .single-featured-image-header img {
+  max-width: 28em; }
+
+/* end sponsor logos fix */
 /* optional dark theme sponsors fix */
 .colors-dark .widget .sponsor-logo a img {
+  box-shadow: none; }
+
+#colophon .sponsor-level-title {
+  font-size: 35px;
+  border-bottom: 1px solid black; }
+#colophon .wcb_widget_sponsors .sponsor-level {
+  width: 100%;
+  margin-bottom: 30px; }
+  #colophon .wcb_widget_sponsors .sponsor-level a.sponsor-logo {
+    display: inline-block;
+    width: 250px; }
+
+.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong {
+  -webkit-box-shadow: none;
   box-shadow: none;
-}
+  -webkit-transition: none;
+  transition: none;
+  transition: none;
+  transition: none; }
+
+.speaker_setup .wcorg-speaker h2 {
+  display: none; }
+.speaker_setup .wcorg-speaker-description {
+  width: 150px;
+  display: inline-block;
+  float: left;
+  margin: 10px; }
+  .speaker_setup .wcorg-speaker-description img {
+    width: 300px; }
+  .speaker_setup .wcorg-speaker-description p, .speaker_setup .wcorg-speaker-description .sharedaddy {
+    display: none; }
+
+.wcorg-volunteer-details {
+  float: right;
+  width: calc( 100% - 120px ); }
+  .wcorg-volunteer-details h2 {
+    margin-bottom: 5px; }
+
+.wcorg-volunteer-content {
+  clear: both; }
+
+/*# sourceMappingURL=additonal_styles.css.map */

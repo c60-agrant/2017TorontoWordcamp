@@ -1,0 +1,44 @@
+
+
+/* some sponsor logos were huge, lets fix that! */
+.single-wcb_sponsor .single-featured-image-header {
+  padding: 3em;
+}
+
+.single-wcb_sponsor .single-featured-image-header img {
+  max-width: 28em;
+}
+/* end sponsor logos fix */
+
+
+/* optional dark theme sponsors fix */
+.colors-dark .widget .sponsor-logo a img {
+  box-shadow: none;
+}
+
+#colophon { 
+	.sponsor-level-title {
+		font-size: 35px;
+		border-bottom: 1px solid black;
+	}
+
+	.wcb_widget_sponsors .sponsor-level {
+	 	width: 100%;
+	 	margin-bottom: 30px;
+		a.sponsor-logo { 
+			display: inline-block;
+			width: 250px;
+			img { 
+			}
+		}
+	}
+}
+
+.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+    transition: none;
+    transition: none;
+}
