@@ -1,0 +1,18 @@
+.speaker_setup { 
+	.wcorg-speaker h2 { 
+		display: none;
+	}
+	.wcorg-speaker-description { 
+		width: 150px;
+		display: inline-block;
+		float: left;
+		margin: 10px;
+		img { 
+			width: 300px;
+		}
+
+		p,.sharedaddy { 
+			display: none;
+		}
+	}
+}

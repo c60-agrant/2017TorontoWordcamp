@@ -146,4 +146,90 @@ form.wcorg-mailchimp input[type=submit] {
 .wcorg-volunteer-content {
   clear: both; }
 
+.wcpt-schedule td, .wcpt-schedule th {
+  border: 1px solid #cccccc;
+  position: relative;
+  width: 24%; }
+.wcpt-schedule th:first-child, .wcpt-schedule td:first-child {
+  padding-left: 5px;
+  width: 70px; }
+
+.wcpt-session-speakers {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  right: 10px; }
+
+.wcpt-session-title {
+  display: block;
+  padding: 4px; }
+
+td.wcpt-session-type-session,
+td.wcb-session-opening-remarks,
+td.wcb-session-keynote,
+td.wcb-session-closing-remarks {
+  vertical-align: top;
+  padding: 0px;
+  padding-bottom: 30px; }
+
+.wcb-track-development::before,
+.wcb-track-community::before,
+.wcb-track-marketing::before,
+.wcb-track-business::before,
+.wcb-track-design::before,
+.wcb-track-content::before,
+.wcb-track-security::before {
+  text-align: center;
+  padding: 5px;
+  color: white;
+  display: block; }
+
+.wcb-track-development::before {
+  content: "Development";
+  background-color: #009900; }
+
+.wcb-track-community::before {
+  content: "Community";
+  background-color: #DD7E6B; }
+
+.wcb-track-marketing::before {
+  content: "Marketing";
+  background-color: #009999; }
+
+.wcb-track-business::before {
+  content: "Business";
+  background-color: #990099; }
+
+.wcb-track-design::before {
+  content: "Design";
+  background-color: #990000; }
+
+.wcb-track-content::before {
+  content: "Content";
+  background-color: #999900; }
+
+.wcb-track-security::before {
+  content: "Security";
+  background-color: #999900; }
+
+td.wcb-session-ambassador-program {
+  padding-bottom: 0px; }
+
+@media screen and (max-width: 500px) {
+  .wcpt-schedule td {
+    display: block; }
+  .wcpt-schedule th {
+    display: none; }
+  .wcpt-schedule td, .wcpt-schedule th {
+    width: 100%; }
+  .wcpt-schedule th:first-child, .wcpt-schedule td:first-child {
+    width: 100%; }
+
+  .wcpt-time {
+    font-weight: bold;
+    background-color: #eeeeee;
+    margin-top: 20px; } }
+
 /*# sourceMappingURL=additonal_styles.css.map */
