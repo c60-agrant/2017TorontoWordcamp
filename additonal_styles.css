@@ -147,7 +147,8 @@ form.wcorg-mailchimp input[type=submit] {
   clear: both; }
 
 .wcpt-schedule td, .wcpt-schedule th {
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  position: relative; }
 .wcpt-schedule th:first-child, .wcpt-schedule td:first-child {
   padding-left: 10px; }
 .wcpt-schedule th:last-child, .wcpt-schedule td:last-child {
@@ -156,10 +157,14 @@ form.wcorg-mailchimp input[type=submit] {
 .wcpt-session-speakers {
   display: block;
   text-align: right;
-  font-weight: bold; }
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  right: 10px; }
 
-td.wcpt-session-type-session {
-  vertical-align: top; }
+td.wcpt-session-type-session, td.wcb-session-opening-remarks, td.wcb-session-keynote {
+  vertical-align: top;
+  padding-bottom: 30px; }
 
 .wcb-track-development::before {
   text-align: center;
