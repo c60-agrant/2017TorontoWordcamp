@@ -146,4 +146,75 @@ form.wcorg-mailchimp input[type=submit] {
 .wcorg-volunteer-content {
   clear: both; }
 
+.wcpt-session-speakers {
+  display: block;
+  text-align: right;
+  font-weight: bold; }
+
+td.wcpt-session-type-session {
+  vertical-align: top; }
+
+.wcb-track-development::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Development";
+  background-color: #00FF00;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
+.wcb-track-community::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Community";
+  background-color: #DD7E6B;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
+.wcb-track-marketing::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Marketing";
+  background-color: #00FFFF;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
+.wcb-track-business::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Business";
+  background-color: #FF00FF;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
+.wcb-track-design::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Design";
+  background-color: #FF0000;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
+.wcb-track-content::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Content";
+  background-color: #FFFF00;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
+.wcb-track-security::before {
+  border-radius: 10px;
+  text-align: center;
+  content: "Security";
+  background-color: #FF9900;
+  color: white;
+  display: block;
+  padding-left: 5px; }
+
 /*# sourceMappingURL=additonal_styles.css.map */
