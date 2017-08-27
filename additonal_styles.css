@@ -146,6 +146,13 @@ form.wcorg-mailchimp input[type=submit] {
 .wcorg-volunteer-content {
   clear: both; }
 
+.wcpt-schedule td, .wcpt-schedule th {
+  border: 1px solid #cccccc; }
+.wcpt-schedule th:first-child, .wcpt-schedule td:first-child {
+  padding-left: 10px; }
+.wcpt-schedule th:last-child, .wcpt-schedule td:last-child {
+  padding-right: 10px; }
+
 .wcpt-session-speakers {
   display: block;
   text-align: right;
@@ -155,7 +162,6 @@ td.wcpt-session-type-session {
   vertical-align: top; }
 
 .wcb-track-development::before {
-  border-radius: 10px;
   text-align: center;
   content: "Development";
   background-color: #00FF00;
@@ -164,7 +170,6 @@ td.wcpt-session-type-session {
   padding-left: 5px; }
 
 .wcb-track-community::before {
-  border-radius: 10px;
   text-align: center;
   content: "Community";
   background-color: #DD7E6B;
@@ -173,7 +178,6 @@ td.wcpt-session-type-session {
   padding-left: 5px; }
 
 .wcb-track-marketing::before {
-  border-radius: 10px;
   text-align: center;
   content: "Marketing";
   background-color: #00FFFF;
@@ -182,7 +186,6 @@ td.wcpt-session-type-session {
   padding-left: 5px; }
 
 .wcb-track-business::before {
-  border-radius: 10px;
   text-align: center;
   content: "Business";
   background-color: #FF00FF;
@@ -191,7 +194,6 @@ td.wcpt-session-type-session {
   padding-left: 5px; }
 
 .wcb-track-design::before {
-  border-radius: 10px;
   text-align: center;
   content: "Design";
   background-color: #FF0000;
@@ -200,7 +202,6 @@ td.wcpt-session-type-session {
   padding-left: 5px; }
 
 .wcb-track-content::before {
-  border-radius: 10px;
   text-align: center;
   content: "Content";
   background-color: #FFFF00;
@@ -209,7 +210,6 @@ td.wcpt-session-type-session {
   padding-left: 5px; }
 
 .wcb-track-security::before {
-  border-radius: 10px;
   text-align: center;
   content: "Security";
   background-color: #FF9900;
