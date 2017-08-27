@@ -212,4 +212,15 @@ td.wcpt-session-type-session, td.wcb-session-opening-remarks, td.wcb-session-key
 td.wcb-session-ambassador-program {
   padding-bottom: 0px; }
 
+@media screen and (max-width: 500px) {
+  .wcpt-schedule td {
+    display: block; }
+  .wcpt-schedule th {
+    display: none; }
+
+  .wcpt-time {
+    font-weight: bold;
+    background-color: #eeeeee;
+    margin-top: 20px; } }
+
 /*# sourceMappingURL=additonal_styles.css.map */
