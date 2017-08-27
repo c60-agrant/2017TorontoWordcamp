@@ -150,9 +150,7 @@ form.wcorg-mailchimp input[type=submit] {
   border: 1px solid #cccccc;
   position: relative; }
 .wcpt-schedule th:first-child, .wcpt-schedule td:first-child {
-  padding-left: 10px; }
-.wcpt-schedule th:last-child, .wcpt-schedule td:last-child {
-  padding-right: 10px; }
+  padding-left: 5px; }
 
 .wcpt-session-speakers {
   display: block;
@@ -162,64 +160,56 @@ form.wcorg-mailchimp input[type=submit] {
   bottom: 0px;
   right: 10px; }
 
+.wcpt-session-title {
+  display: block;
+  padding: 4px; }
+
 td.wcpt-session-type-session, td.wcb-session-opening-remarks, td.wcb-session-keynote {
   vertical-align: top;
+  padding: 0px;
   padding-bottom: 30px; }
 
-.wcb-track-development::before {
-  text-align: center;
-  content: "Development";
-  background-color: #00FF00;
-  color: white;
-  display: block;
-  padding-left: 5px; }
-
-.wcb-track-community::before {
-  text-align: center;
-  content: "Community";
-  background-color: #DD7E6B;
-  color: white;
-  display: block;
-  padding-left: 5px; }
-
-.wcb-track-marketing::before {
-  text-align: center;
-  content: "Marketing";
-  background-color: #00FFFF;
-  color: white;
-  display: block;
-  padding-left: 5px; }
-
-.wcb-track-business::before {
-  text-align: center;
-  content: "Business";
-  background-color: #FF00FF;
-  color: white;
-  display: block;
-  padding-left: 5px; }
-
-.wcb-track-design::before {
-  text-align: center;
-  content: "Design";
-  background-color: #FF0000;
-  color: white;
-  display: block;
-  padding-left: 5px; }
-
-.wcb-track-content::before {
-  text-align: center;
-  content: "Content";
-  background-color: #FFFF00;
-  color: white;
-  display: block;
-  padding-left: 5px; }
-
+.wcb-track-development::before,
+.wcb-track-community::before,
+.wcb-track-marketing::before,
+.wcb-track-business::before,
+.wcb-track-design::before,
+.wcb-track-content::before,
 .wcb-track-security::before {
   text-align: center;
-  content: "Security";
-  background-color: #FF9900;
+  padding: 5px;
   color: white;
-  display: block;
-  padding-left: 5px; }
+  display: block; }
+
+.wcb-track-development::before {
+  content: "Development";
+  background-color: #009900; }
+
+.wcb-track-community::before {
+  content: "Community";
+  background-color: #DD7E6B; }
+
+.wcb-track-marketing::before {
+  content: "Marketing";
+  background-color: #009999; }
+
+.wcb-track-business::before {
+  content: "Business";
+  background-color: #990099; }
+
+.wcb-track-design::before {
+  content: "Design";
+  background-color: #990000; }
+
+.wcb-track-content::before {
+  content: "Content";
+  background-color: #999900; }
+
+.wcb-track-security::before {
+  content: "Security";
+  background-color: #999900; }
+
+td.wcb-session-ambassador-program {
+  padding-bottom: 0px; }
 
 /*# sourceMappingURL=additonal_styles.css.map */
