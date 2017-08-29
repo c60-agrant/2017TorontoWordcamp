@@ -77,12 +77,14 @@ h1.site-title {
 body.page:not(.twentyseventeen-front-page) h1.entry-title {
   font-size: 1.8rem; }
 
-.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
-  max-height: 512px; }
+.home .custom-header-media {
+  max-height: 512px !important; }
 
-.main-navigation li li:hover, .main-navigation li li.focus {
+.main-navigation li li:hover,
+.main-navigation li li.focus {
   background-color: white; }
-  .main-navigation li li:hover a, .main-navigation li li.focus a {
+  .main-navigation li li:hover a,
+  .main-navigation li li.focus a {
     color: #222222;
     text-decoration: underline; }
 
