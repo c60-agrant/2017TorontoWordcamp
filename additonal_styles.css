@@ -229,6 +229,9 @@ td.wcb-session-ambassador-program {
   .wcpt-schedule th:first-child, .wcpt-schedule td:first-child {
     width: 100%; }
 
+  .wcpt-session-title {
+    margin-bottom: 15px; }
+
   .wcpt-time {
     font-weight: bold;
     background-color: #eeeeee;
