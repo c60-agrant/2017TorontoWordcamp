@@ -108,4 +108,10 @@ td.wcb-session-ambassador-program {
         background-color: #eeeeee;
         margin-top: 20px;
     }
+    .wcb-track-auditorium .wcpt-session-speakers:after { 
+        content: 'Room: Auditorium';
+        font-weight: bold;
+        display: block;
+    }
 }
+

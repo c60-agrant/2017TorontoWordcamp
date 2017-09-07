@@ -232,6 +232,11 @@ td.wcb-session-ambassador-program {
   .wcpt-time {
     font-weight: bold;
     background-color: #eeeeee;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  .wcb-track-auditorium .wcpt-session-speakers:after {
+    content: 'Room: Auditorium';
+    font-weight: bold;
+    display: block; } }
 
 /*# sourceMappingURL=additonal_styles.css.map */
