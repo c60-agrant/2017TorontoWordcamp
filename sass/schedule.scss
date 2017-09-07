@@ -103,9 +103,35 @@ td.wcb-session-ambassador-program {
             width: 100%;
         }
     }
+
+    .wcpt-session-title {
+        margin-bottom: 15px;
+    }
+
     .wcpt-time { 
         font-weight: bold;
         background-color: #eeeeee;
         margin-top: 20px;
     }
+    .wcb-track-auditorium .wcpt-session-speakers:after { 
+        content: 'Room: Auditorium';
+        font-weight: bold;
+        display: block;
+    }
+    .wcb-track-room-1-147 .wcpt-session-speakers:after { 
+        content: 'Room: 1-147';
+        font-weight: bold;
+        display: block;
+    }
+    .wcb-track-room-1-149 .wcpt-session-speakers:after {
+        content: 'Room: 1-149';
+        font-weight: bold;
+        display: block;
+    }
+    .wcb-track-room-1-129 .wcpt-session-speakers:after {
+        content: 'Room: 1-129';
+        font-weight: bold;
+        display: block;
+    }
 }
+
