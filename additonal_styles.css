@@ -71,6 +71,9 @@
   -webkit-transition: background .2s;
   transition: background .2s; }
 
+.entry-content a {
+  text-decoration: underline; }
+
 h1.site-title {
   font-size: 3rem; }
 
