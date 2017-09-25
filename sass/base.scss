@@ -77,6 +77,11 @@
   transition: background .2s;
 }
 
+.entry-content a { 
+  text-decoration: underline;
+  color: blue;
+}
+
 h1.site-title {
   font-size: 3rem;
 }
